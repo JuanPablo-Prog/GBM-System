@@ -13,7 +13,7 @@ import MyEquipment from './views/MyEquipment'
 import Profile from './views/Profile'
 import Catalogs from './views/Catalogs'
 import Users from './views/users'
-import UserRoles from './views/UserRoles'
+
 
 // Componente inline para carga (reemplaza a LoadingSpinner)
 function LoadingSpinner({ text = 'Cargando…' }) {
