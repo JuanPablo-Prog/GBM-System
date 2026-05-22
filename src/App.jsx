@@ -13,7 +13,7 @@ import Reports from './views/Reports'
 import MyEquipment from './views/MyEquipment'
 import Profile from './views/Profile'
 import Catalogs from './views/Catalogs'
-import LoadingSpinner from './components/LoadingSpinner'
+import LoadingSpinner from './components/Loadingspinner'
 
 const ADMIN_VIEWS = {
   dashboard:   <Dashboard />,
