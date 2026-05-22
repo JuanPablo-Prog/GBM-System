@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Search, Plus, Pencil, Trash2, Shield } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import Modal from '../components/Modal'
-import ConfirmDialog from '../components/ConfirmDialog'
+import ConfirmDialog from '../components/Confirmdialog'
 import LoadingSpinner from '../components/LoadingSpinner'
 
 export default function UserRoles() {
