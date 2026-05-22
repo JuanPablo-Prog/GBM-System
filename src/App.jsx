@@ -14,7 +14,6 @@ import Profile from './views/Profile'
 import Catalogs from './views/Catalogs'
 import Users from './views/users'
 
-
 // Componente inline para carga (reemplaza a LoadingSpinner)
 function LoadingSpinner({ text = 'Cargando…' }) {
   return (
@@ -33,7 +32,6 @@ const ADMIN_VIEWS = {
   assets:      <Assets />,
   employees:   <Employees />,
   users:       <Users />,
-  userroles:   <UserRoles />,
   assignments: <Assignments />,
   maintenance: <Maintenance />,
   reports:     <Reports />,
