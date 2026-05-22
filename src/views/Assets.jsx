@@ -6,7 +6,7 @@ import {
   getCategories, getLocations, getStatuses,
 } from '../lib/queries'
 import Modal from '../components/Modal'
-import ConfirmDialog from '../components/ConfirmDialog'
+import ConfirmDialog from '../components/Confirmdialog'
 import Badge from '../components/Badge'
 import LoadingSpinner from '../components/LoadingSpinner'
 
