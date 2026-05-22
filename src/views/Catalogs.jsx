@@ -10,7 +10,7 @@ import {
   getStatuses,     createStatus,     updateStatus,     deleteStatus,
   getDepartments,  createDepartment, updateDepartment, deleteDepartment,
 } from '../lib/queries'
-import ConfirmDialog from '../components/ConfirmDialog'
+import ConfirmDialog from '../components/Confirmdialog'
 import LoadingSpinner from '../components/LoadingSpinner'
 
 // ── Per-catalog configuration ────────────────────────────────
