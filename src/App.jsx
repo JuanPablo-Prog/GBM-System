@@ -15,8 +15,8 @@ import Catalogs from './views/Catalogs'
 import Users from './views/users'
 import UserRoles from './views/UserRoles'
 
-// Componente inline para loading (evita dependencia de archivo)
-function LoadingSpinnerInline({ text = "Iniciando sistema…" }) {
+// Componente inline para carga (reemplaza a LoadingSpinner)
+function LoadingSpinner({ text = 'Cargando…' }) {
   return (
     <div className="flex flex-col items-center justify-center h-64 gap-4">
       <div className="relative w-10 h-10">
@@ -53,7 +53,7 @@ export default function App() {
   if (loading) {
     return (
       <div className="min-h-screen bg-bg-base flex items-center justify-center">
-        <LoadingSpinnerInline text="Iniciando sistema…" />
+        <LoadingSpinner text="Iniciando sistema…" />
       </div>
     )
   }
