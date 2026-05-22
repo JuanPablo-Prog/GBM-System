@@ -6,7 +6,7 @@ import {
   getDepartments,
 } from '../lib/queries'
 import Modal from '../components/Modal'
-import ConfirmDialog from '../components/ConfirmDialog'
+import ConfirmDialog from '../components/Confirmdialog'
 import LoadingSpinner from '../components/LoadingSpinner'
 
 const EMPTY = { full_name: '', email: '', department_id: '', position: '' }
